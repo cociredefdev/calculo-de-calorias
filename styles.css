@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-    width: calc(90% - 1.5cm);
+    width: calc(90% - 3cm); /* Reducir el tamaño en 3 cm */
     max-width: 500px;
     padding: 20px;
     background: #fff;
@@ -22,7 +22,7 @@ body {
 h1 {
     margin-bottom: 20px;
     color: #333;
-    font-size: 24px; /* Reducir tamaño de la fuente */
+    font-size: 24px; /* Reducir tamaño de letra */
 }
 
 h1 i {
@@ -39,17 +39,17 @@ label {
     display: block;
     margin-bottom: 5px;
     color: #555;
-    font-size: 16px; /* Reducir tamaño de la fuente */
+    font-size: 16px; /* Reducir tamaño de letra */
 }
 
 input, select {
     width: 100%;
-    padding: 8px; /* Reducir tamaño de los inputs */
+    padding: 8px; /* Reducir tamaño de padding */
     border: 1px solid #ddd;
     border-radius: 4px;
     margin-top: 5px;
-    font-size: 14px; /* Reducir tamaño de la fuente de los inputs */
-    box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
+    font-size: 14px; /* Reducir tamaño de letra */
+    box-sizing: border-box;
 }
 
 #paceInput {
@@ -60,10 +60,10 @@ input, select {
 
 #paceInput input {
     width: 50%;
-    padding: 8px; /* Reducir tamaño de los inputs */
+    padding: 8px;
     border: 1px solid #ddd;
     border-radius: 4px;
-    font-size: 14px; /* Reducir tamaño de la fuente de los inputs */
+    font-size: 14px; /* Reducir tamaño de letra */
 }
 
 button {
@@ -96,4 +96,3 @@ button i {
     color: #333;
     font-size: 18px;
 }
-
