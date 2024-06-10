@@ -41,7 +41,7 @@ label {
 }
 
 input, select {
-    width: 100%;
+    width: calc(100% - 22px);
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 4px;
@@ -56,7 +56,7 @@ input, select {
 }
 
 #paceInput input {
-    width: 50%;
+    width: calc(50% - 11px);
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 4px;
@@ -92,4 +92,3 @@ button i {
     color: #333;
     font-size: 18px;
 }
-
